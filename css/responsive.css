@@ -1,0 +1,39 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ 
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+
+}
+/*mobile-layout*/
+@media only screen and (max-width: 767px) { 
+.list-icon {
+
+    width: 100%;
+
+}
+  .form-spacing {
+
+    margin: 40px -6px 1px;
+
+}
+.medical_bg {
+
+    background: url(../img/hero.jpg) no-repeat top center;
+        background-color: rgba(0, 0, 0, 0);
+        background-attachment: scroll;
+        background-size: auto auto;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+}

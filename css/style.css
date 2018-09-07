@@ -1,0 +1,112 @@
+
+body,
+html {
+    overflow-x: hidden
+}
+
+body {
+    font-family: josefin sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    position: relative;
+    color: #898989
+}
+
+a {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+
+.headbg{
+    background: url(../img/bg-1.png) no-repeat center bottom;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+#header{
+ position: relative;
+}
+
+.second-bg{
+
+    height: 100vh;
+    background: url(../img/bg-3.png) no-repeat center top;
+    z-index: 99;
+    position: relative;
+    margin-left: -79px;
+
+
+}
+
+
+
+#header .logo {
+       left: -46px;
+    bottom: 615px;
+    position: relative;
+    background: url(../img/logo.png) no-repeat;
+    z-index: 100;
+ 
+}
+#header .kids {
+    bottom: 383px;
+    position: relative;
+    background: url(../img/kids.png) no-repeat;
+    z-index: 100;
+    right: 365px; 
+
+ }
+
+    #header .rec {
+    bottom: 432px;
+    position: relative;
+    background: url(../img/content.png) no-repeat;
+    z-index: 100;
+    left: 10px;
+    }
+
+#header .soon {
+    margin-left: 278px;
+    bottom: 690px;
+    position: relative;
+    background: url(../img/coming-soon.png) no-repeat;
+    z-index: 100;
+}
+.comming-soon {
+    margin-left: 600px;
+}
+
+.list {
+    position: relative;
+    bottom: 95px;
+    z-index: 999;
+    margin-left: 165px;
+}
+.list ul li a img {
+   width: 74px;
+    height: 74px;
+    line-height: 74px;
+}
+.rec img {
+    width: 404px;
+    margin-left: 16px;
+    position: relative;
+}
+.box-content {
+    position: absolute;
+    top: 31px;
+    left: 50px;
+    width: 259px;
+    height: 42px;
+}
+.box-content p {
+    padding: 0 6px;
+    font-size: 18px;
+    line-height: 24px;
+}
